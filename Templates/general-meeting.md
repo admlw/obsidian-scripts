@@ -17,7 +17,7 @@ else if (experiment == "DUNE"){
 	meeting    = await tp.system.suggester((item) => item, dune_meetings)
 }
 else if (experiment == "SBN"){
-	meting = await tp.system.suggester((item) => item, sbn_meetings)
+	meeting = await tp.system.suggester((item) => item, sbn_meetings)
 }
 
 speakers_fmt  = speakers.replaceAll(", ", ",")
