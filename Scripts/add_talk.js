@@ -1,4 +1,4 @@
-// add a single talke to a list of talks
+// add a single talk to a list of talks
 function add_talk(speaker) {
 
   returner = "";
